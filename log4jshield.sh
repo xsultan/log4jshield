@@ -8,7 +8,7 @@ JNDI_LOOKUP_CLASS_PATH="org/apache/logging/log4j/core/lookup/JndiLookup.class"
 INFACTED=()
 SAFE=()
 SECONDS=0
-TIMESTAMP=$(date +'GAARA-%d-%m-%Y_%H-%M-%S')
+TIMESTAMP=$(date +'LOG4J-SHIELD-%d-%m-%Y_%H-%M-%S')
 echo -e "\n  _             _  _   _     _     _      _     _ \n | | ___   __ _| || | (_)___| |__ (_) ___| | __| |\n | |/ _ \ / _\` | || |_| / __| '_ \| |/ _ \ |/ _\` |\n | | (_) | (_| |__   _| \__ \ | | | |  __/ | (_| |\n |_|\___/ \__, |  |_|_/ |___/_| |_|_|\___|_|\__,_|\n          |___/     |__/                     1.0\n\n"
 function fixJARs(){
 	eval file=$1
@@ -24,12 +24,12 @@ function fixJARs(){
 	fi
 }
 
-if [[ $(find . -type d -name "GAARA-*") ]];then
+if [[ $(find . -type d -name "LOG4J-SHIELD-*") ]];then
 	read -p "It seems you have ran the analysis process already, if you would like to continue patching the vulnerable JARs please type [y] or [n] to start a new analysis: " -n 1 -r
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
 		echo -e "\n\n${BOLD}${RED}[+]${ENDCOLOR} Please type the choice number for the analysis which you want to use to preform the patching against:${ENDBOLD}\n"
-		FOLDERS=(GAARA-*/)
+		FOLDERS=(LOG4J-SHIELD-*/)
 		select d in ${FOLDERS[@]}; do test -n "$d" && break; echo ">>> Invalid selection"; done
 			vulnerableJARS=$(cat $d/VULNERABLE-JARs.txt)
 			for jarFile in ${vulnerableJARS[@]}
