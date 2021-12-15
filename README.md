@@ -1,9 +1,16 @@
-[![Log4j Shield](https://i.ibb.co/0hLdyRV/logo.png)](https://github.com/xsultan/log4jshield)
-[![](https://img.shields.io/badge/release-v1-brightgreen?style=flat)](https://github.com/xsultan/log4jshield) [![](https://img.shields.io/github/stars/xsultan/log4jshield.svg?style=flat)](https://github.com/xsultan/log4jshield/stargazers) [![](https://img.shields.io/github/forks/xsultan/log4jshield?style=flat)](https://github.com/xsultan/log4jshield/network/members) [![](https://img.shields.io/github/issues/xsultan/log4jshield.svg?style=flat)](https://github.com/xsultan/log4jshield/issues) [![](https://img.shields.io/github/repo-size/xsultan/log4jshield.svg?style=flat)](https://github.com/xsultan/log4jshield/) [![](https://img.shields.io/github/license/adilsoybali/Log4j-RCE-Scanner.svg?style=flat)](https://github.com/xsultan/log4jshield/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/github/last-commit/xsultan/log4jshield)](https://github.com/xsultan/log4jshield/commits/main)
+<h1 align="center">
+	<img src="https://i.ibb.co/0hLdyRV/logo.png" alt="Log4j Shield" width="50%"></a>
+  <br>
+</h1>
 
-[Demo](https://github.com/xsultan/log4jshield#Demo) •
-[Feature](https://github.com/xsultan/log4jshield#Features) • [Requirements](https://github.com/xsultan/log4jshield#Requirements) • [Installation](https://github.com/xsultan/log4jshield#Installation) • [Usage](https://github.com/xsultan/log4jshield#Usage) • [Contributing](https://github.com/xsultan/log4jshield#Contributing) •
-[Contact](https://github.com/xsultan/log4jshield#Contact)
+<p align="center">
+	<a href="https://github.com/xsultan/log4jshield"><img src="https://img.shields.io/badge/release-v1-brightgreen?style=flat" alt=""></a> <a href="https://github.com/xsultan/log4jshield/stargazers"><img src="https://img.shields.io/github/stars/xsultan/log4jshield.svg?style=flat" alt=""></a> <a href="https://github.com/xsultan/log4jshield/network/members"><img src="https://img.shields.io/github/forks/xsultan/log4jshield?style=flat" alt=""></a> <a href="https://github.com/xsultan/log4jshield/issues"><img src="https://img.shields.io/github/issues/xsultan/log4jshield.svg?style=flat" alt=""></a> <a href="https://github.com/xsultan/log4jshield/"><img src="https://img.shields.io/github/repo-size/xsultan/log4jshield.svg?style=flat" alt=""></a> <a href="https://github.com/xsultan/log4jshield/blob/master/LICENSE"><img src="https://img.shields.io/github/license/adilsoybali/Log4j-RCE-Scanner.svg?style=flat" alt=""></a> <a href="https://github.com/xsultan/log4jshield/commits/main"><img src="https://img.shields.io/github/last-commit/xsultan/log4jshield" alt="GitHub last commit"></a></p>
+
+<p align="center">
+	<a href="https://github.com/xsultan/log4jshield#Demo">Demo</a> •
+<a href="https://github.com/xsultan/log4jshield#Features">Feature</a> • <a href="https://github.com/xsultan/log4jshield#Requirements">Requirements</a> • <a href="https://github.com/xsultan/log4jshield#Installation">Installation</a> • <a href="https://github.com/xsultan/log4jshield#Usage">Usage</a> • <a href="https://github.com/xsultan/log4jshield#Contributing">Contributing</a> •
+<a href="https://github.com/xsultan/log4jshield#Contact">Contact</a></p>
+
 
 # Log4j Shield - fast ⚡, scalable and easy to use
 
