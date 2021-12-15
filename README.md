@@ -16,15 +16,15 @@
 
 ### No Log4j vulnerability left behind
 
-Using this tool, you can scan for remote command execution vulnerability CVE-2021-44228 on Apache Log4j at multiple addresses.
+You can use this tool to scan for all JAR files affected by Apache Log4J vulnerability CVE-2021-44228 and patch them on the fly.
 
 > [Affected versions < 2.15.0](https://logging.apache.org/log4j/2.x/security.html)
 
 ## Features
 
 - It can scan for the vulnerability within your system regardless of the naming convention of the library.
-- Deep Searchs for the vulnerability within nested libraries, compressed and concatanted libraries.
-- Creates a report of all Java ARchives (JAR) within your system or directory, the reports will contain the safe and vulnerabile JARs.
+- Deep Searchs for the vulnerability within nested libraries, compressed and concatenated libraries.
+- Creates a report of all Java ARchives (JAR) within your system or directory, the reports will contain the safe and vulnerable JARs.
 - Blazing fast ⚡, scalable and easy to use, (a system with more than 20k JARs takes about 3 mins)
 
 ## Demo
@@ -33,7 +33,7 @@ Using this tool, you can scan for remote command execution vulnerability CVE-202
 
 ## Requirements
 
-1. Nothing, just grab the script that's suitable to your system.
+1. Nothing, just grab the script that's suitable for your system.
 
 ## Installation
 
