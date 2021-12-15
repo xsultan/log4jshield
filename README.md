@@ -47,8 +47,10 @@ Using this tool, you can scan for remote command execution vulnerability CVE-202
 
 1. Navigate to your desired directory or go to your root path by typing `cd /`
 2. Then run the tool
+
    ./log4jshield.sh
-   This will start scanning for all the JARs, then it will generate a report which will be created in the same path you ran the tool at.
+
+This will start scanning for all the JARs, then it will generate a report which will be created in the same path you ran the tool at.
 
 ## Contributing
 
