@@ -12,7 +12,7 @@
 <a href="https://github.com/xsultan/log4jshield#Contact">Contact</a></p>
 
 
-# Log4j Shield - fast ⚡, scalable and easy to use
+# Log4j Shield - fast ⚡, scalable and easy to use finder and patcher
 
 ### No Log4j vulnerability left behind
 
