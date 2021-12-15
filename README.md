@@ -22,9 +22,9 @@ You can use this tool to scan for all JAR files affected by Apache Log4J vulnera
 
 ## Features
 
-- It can scan for the vulnerability within your system regardless of the naming convention of the library.
-- Deep Searchs for the vulnerability within nested libraries, compressed and concatenated libraries.
-- Creates a report of all Java ARchives (JAR) within your system or directory, the reports will contain the safe and vulnerable JARs.
+- Scan for the vulnerability within your system regardless of the naming convention of the library.
+- Deep scan for the vulnerability within nested libraries, compressed and concatenated libraries.
+- Creates a report of all Java ARchives (JAR) within your system or directory, the reports will contain the safe (for asset management) and vulnerable JARs.
 - Blazing fast ⚡, scalable and easy to use, (a system with more than 20k JARs takes about 3 mins)
 
 ## Demo
