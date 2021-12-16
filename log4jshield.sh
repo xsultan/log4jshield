@@ -14,7 +14,7 @@ function fixJARs(){
 	eval file=$1
 	if [[ -f "$file" ]]; then
 		cp -p $file "${file}.bak"
-		if ${file#*.} == 'war';
+		if ${file#*.} == 'war'; then
 			$(zip -q -r $file WEB-INF/lib/log4j-core-*.jar)
 		else
 			$(zip -q -d $file ${JNDI_LOOKUP_CLASS_PATH})
