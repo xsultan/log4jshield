@@ -14,11 +14,7 @@ function fixJARs(){
 	eval file=$1
 	if [[ -f "$file" ]]; then
 		cp -p $file "${file}.bak"
-		if ${file#*.} == 'war':
-			$(zip -q -r $file WEB-INF/lib/log4j-core-*.jar)
-		else
-			$(zip -q -d $file ${JNDI_LOOKUP_CLASS_PATH})
-		fi
+		$(zip -q -d $file ${JNDI_LOOKUP_CLASS_PATH})
 		if [ $? -eq 0 ]; then
 			echo -e "${BOLD}[+] ${GREEN}[PATCHED] $file ${ENDBOLD}${ENDCOLOR}"
 			echo -e "${BOLD}[+] ${RED}[INFO] created a backup of the patched jar under $file.bak${ENDCOLOR}${ENDBOLD}\n"
@@ -28,7 +24,7 @@ function fixJARs(){
 	fi
 }
 
-if [[ $(find . -type d -name "^LOG4J-SHIELD-*") ]];then
+if [[ $(find . -type d -name "LOG4J-SHIELD-*") ]];then
 	read -p "It seems you have ran the analysis process already, if you would like to continue patching the vulnerable JARs please type [y] or [n] to start a new analysis: " -n 1 -r
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
