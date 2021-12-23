@@ -8,7 +8,7 @@
 
 <p align="center">
 	<a href="https://github.com/xsultan/log4jshield#Demo">Demo</a> •
-<a href="https://github.com/xsultan/log4jshield#Features">Feature</a> • <a href="https://github.com/xsultan/log4jshield#Requirements">Requirements</a> • <a href="https://github.com/xsultan/log4jshield#Installation">Installation</a> • <a href="https://github.com/xsultan/log4jshield#Usage">Usage</a> • <a href="https://github.com/xsultan/log4jshield#Contributing">Contributing</a> •
+<a href="https://github.com/xsultan/log4jshield#Features">Features</a> • <a href="https://github.com/xsultan/log4jshield#Requirements">Requirements</a> • <a href="https://github.com/xsultan/log4jshield#Installation">Installation</a> • <a href="https://github.com/xsultan/log4jshield#Usage">Usage</a> • <a href="https://github.com/xsultan/log4jshield#Contributing">Contributing</a> •
 <a href="https://github.com/xsultan/log4jshield#Contact">Contact</a></p>
 
 
@@ -24,12 +24,12 @@ You can use this tool to scan for all JAR files affected by Apache Log4J vulnera
 
 - Scan for the vulnerability within your system regardless of the naming convention of the library.
 - Deep scan for the vulnerability within nested libraries, compressed and concatenated libraries.
-- Creates a report of all Java ARchives (JAR) within your system or directory, the reports will contain the safe (for asset management) and vulnerable JARs.
+- Creates a report of all Java ARchives (JAR), WAR, EAR, and AAR within your system or directory, the reports will contain the safe (for asset management) and vulnerable JARs.
 - Blazing fast ⚡, scalable and easy to use, (a system with more than 20k JARs takes about 3 mins)
 
 ## Demo
 
-[![demo](https://asciinema.org/a/GekJp7Xi35XBOHm8yDUeHCYfS.svg)](https://asciinema.org/a/GekJp7Xi35XBOHm8yDUeHCYfS)
+[![demo](https://asciinema.org/a/458122.svg)](https://asciinema.org/a/458122)
 
 ## Requirements
 
